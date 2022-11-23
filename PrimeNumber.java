@@ -12,13 +12,13 @@ class Test
 				int temp = 0;
 				if(num!=0)
 				{
-						for(int i=2; i<num-1; i++)
+					for(int i=2; i<num-1; i++)
+					{
+						if(num%i==0)
 						{
-							if(num%i==0)
-							{
-								temp++;
-							}
+							temp++;
 						}
+					}
 					if(temp == 0)
 					{
 						System.out.println(num +" is prime number");
