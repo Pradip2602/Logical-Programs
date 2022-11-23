@@ -3,7 +3,7 @@ class Test
 {
 		public static void main(String [] args)
 		{
-				// Reverse the number 
+				// Factorial of number 
 				Scanner sc = new Scanner(System.in);
 				System.out.println("Enter the number : ");
 				int num = sc.nextInt();
